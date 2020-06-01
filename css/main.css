@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Light.woff2") format("woff2"), url("../fonts/Ubuntu-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.first {
+  background: url("../img/preback.png") no-repeat left 65% top, url("../img/bg1.png") no-repeat center center/cover;
+  position: relative; }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px; }
+
+.logo {
+  height: 80px;
+  width: 160px; }
+
+.menu__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu__item {
+  list-style: none; }
+
+.menu__link {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px; }
+
+.phone__link {
+  text-decoration: none;
+  color: white; }
+
+.h1 {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.h1__text {
+  background-color: white;
+  color: black;
+  font-size: 55px;
+  -webkit-transform: skewX(-15deg);
+      -ms-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  padding: 0 10px;
+  margin: 10px 0; }
+
+.desc, .first__list {
+  margin-left: 300px; }
+
+.list__text {
+  margin-top: 5px; }
+
+.socials {
+  margin-top: 70px; }
+  .socials__item {
+    list-style: none;
+    margin-bottom: 10px; }
+
+.advantages {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.number {
+  font-size: 50px;
+  padding: 20px;
+  border-bottom: 1px solid white; }
+
+.advantage {
+  background-color: black;
+  padding: 20px;
+  width: 25%; }
+
+.advantage__text {
+  padding: 20px 0; }
+
+.order {
+  width: 25%;
+  background: url("../img/bg3.png") no-repeat center center/cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative; }
+  .order__text {
+    text-transform: uppercase;
+    text-align: center; }
+
+.pic {
+  position: absolute;
+  top: -80%;
+  left: 0; }
